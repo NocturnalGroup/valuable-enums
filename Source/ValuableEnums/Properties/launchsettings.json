@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+	  "Test Generator": {
+		  "commandName": "DebugRoslynComponent",
+		  "targetProject": "../ValuableEnums.Tests.Debug/ValuableEnums.Tests.Debug.csproj"
+	  }
+  }
+}

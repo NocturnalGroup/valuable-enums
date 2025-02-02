@@ -1,0 +1,10 @@
+﻿<Solution>
+  <Folder Name="/Examples/">
+    <Project Path="Examples\ValuableEnums.Example\ValuableEnums.Example.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Source/">
+    <Project Path="Source\ValuableEnums.Tests.Debug\ValuableEnums.Tests.Debug.csproj" Type="Classic C#" />
+    <Project Path="Source\ValuableEnums.Tests.Unit\ValuableEnums.Tests.Unit.csproj" Type="Classic C#" />
+    <Project Path="Source\ValuableEnums\ValuableEnums.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>

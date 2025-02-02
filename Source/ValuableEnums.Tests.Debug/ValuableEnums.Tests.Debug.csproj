@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- Project -->
+		<OutputType>Exe</OutputType>
+		<LangVersion>Latest</LangVersion>
+		<TargetFramework>net9.0</TargetFramework>
+		<RootNamespace>NocturnalGroup.ValuableEnums.Tests.Debug</RootNamespace>
+
+		<!-- Features -->
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference
+			Include="..\ValuableEnums\ValuableEnums.csproj"
+			ReferenceOutputAssembly="false"
+			OutputItemType="Analyzer"
+		/>
+	</ItemGroup>
+
+</Project>
