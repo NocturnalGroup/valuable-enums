@@ -10,10 +10,10 @@ public class NamespacedTests
 		NamespacedEnum.DefaultValues.GetTypeBool().ShouldBe(true);
 		NamespacedEnum.DefaultValues.GetTypeBoolArray().ShouldBe([true, true]);
 
-		NamespacedEnum.DefaultValues.GetTypeSByte().ShouldBe((sbyte) 32);
+		NamespacedEnum.DefaultValues.GetTypeSByte().ShouldBe((sbyte)32);
 		NamespacedEnum.DefaultValues.GetTypeSByteArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.DefaultValues.GetTypeShort().ShouldBe((short) 32);
+		NamespacedEnum.DefaultValues.GetTypeShort().ShouldBe((short)32);
 		NamespacedEnum.DefaultValues.GetTypeShortArray().ShouldBe([32, 32]);
 
 		NamespacedEnum.DefaultValues.GetTypeInt().ShouldBe(32);
@@ -22,16 +22,16 @@ public class NamespacedTests
 		NamespacedEnum.DefaultValues.GetTypeLong().ShouldBe(32);
 		NamespacedEnum.DefaultValues.GetTypeLongArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.DefaultValues.GetTypeByte().ShouldBe((byte) 32);
+		NamespacedEnum.DefaultValues.GetTypeByte().ShouldBe((byte)32);
 		NamespacedEnum.DefaultValues.GetTypeByteArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.DefaultValues.GetTypeUShort().ShouldBe((ushort) 32);
+		NamespacedEnum.DefaultValues.GetTypeUShort().ShouldBe((ushort)32);
 		NamespacedEnum.DefaultValues.GetTypeUShortArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.DefaultValues.GetTypeUInt().ShouldBe((uint) 32);
+		NamespacedEnum.DefaultValues.GetTypeUInt().ShouldBe((uint)32);
 		NamespacedEnum.DefaultValues.GetTypeUIntArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.DefaultValues.GetTypeULong().ShouldBe((ulong) 32);
+		NamespacedEnum.DefaultValues.GetTypeULong().ShouldBe((ulong)32);
 		NamespacedEnum.DefaultValues.GetTypeULongArray().ShouldBe([32, 32]);
 
 		NamespacedEnum.DefaultValues.GetTypeFloat().ShouldBe(3.2f);
@@ -57,10 +57,10 @@ public class NamespacedTests
 		NamespacedEnum.OneOverride.GetTypeBool().ShouldBe(false);
 		NamespacedEnum.OneOverride.GetTypeBoolArray().ShouldBe([true, true]);
 
-		NamespacedEnum.OneOverride.GetTypeSByte().ShouldBe((sbyte) 32);
+		NamespacedEnum.OneOverride.GetTypeSByte().ShouldBe((sbyte)32);
 		NamespacedEnum.OneOverride.GetTypeSByteArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.OneOverride.GetTypeShort().ShouldBe((short) 32);
+		NamespacedEnum.OneOverride.GetTypeShort().ShouldBe((short)32);
 		NamespacedEnum.OneOverride.GetTypeShortArray().ShouldBe([32, 32]);
 
 		NamespacedEnum.OneOverride.GetTypeInt().ShouldBe(32);
@@ -69,16 +69,16 @@ public class NamespacedTests
 		NamespacedEnum.OneOverride.GetTypeLong().ShouldBe(32);
 		NamespacedEnum.OneOverride.GetTypeLongArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.OneOverride.GetTypeByte().ShouldBe((byte) 32);
+		NamespacedEnum.OneOverride.GetTypeByte().ShouldBe((byte)32);
 		NamespacedEnum.OneOverride.GetTypeByteArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.OneOverride.GetTypeUShort().ShouldBe((ushort) 32);
+		NamespacedEnum.OneOverride.GetTypeUShort().ShouldBe((ushort)32);
 		NamespacedEnum.OneOverride.GetTypeUShortArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.OneOverride.GetTypeUInt().ShouldBe((uint) 32);
+		NamespacedEnum.OneOverride.GetTypeUInt().ShouldBe((uint)32);
 		NamespacedEnum.OneOverride.GetTypeUIntArray().ShouldBe([32, 32]);
 
-		NamespacedEnum.OneOverride.GetTypeULong().ShouldBe((ulong) 32);
+		NamespacedEnum.OneOverride.GetTypeULong().ShouldBe((ulong)32);
 		NamespacedEnum.OneOverride.GetTypeULongArray().ShouldBe([32, 32]);
 
 		NamespacedEnum.OneOverride.GetTypeFloat().ShouldBe(3.2f);
@@ -104,10 +104,10 @@ public class NamespacedTests
 		NamespacedEnum.AllOverrides.GetTypeBool().ShouldBe(false);
 		NamespacedEnum.AllOverrides.GetTypeBoolArray().ShouldBe([false, false]);
 
-		NamespacedEnum.AllOverrides.GetTypeSByte().ShouldBe((sbyte) 64);
+		NamespacedEnum.AllOverrides.GetTypeSByte().ShouldBe((sbyte)64);
 		NamespacedEnum.AllOverrides.GetTypeSByteArray().ShouldBe([64, 64]);
 
-		NamespacedEnum.AllOverrides.GetTypeShort().ShouldBe((short) 64);
+		NamespacedEnum.AllOverrides.GetTypeShort().ShouldBe((short)64);
 		NamespacedEnum.AllOverrides.GetTypeShortArray().ShouldBe([64, 64]);
 
 		NamespacedEnum.AllOverrides.GetTypeInt().ShouldBe(64);
@@ -116,16 +116,16 @@ public class NamespacedTests
 		NamespacedEnum.AllOverrides.GetTypeLong().ShouldBe(64);
 		NamespacedEnum.AllOverrides.GetTypeLongArray().ShouldBe([64, 64]);
 
-		NamespacedEnum.AllOverrides.GetTypeByte().ShouldBe((byte) 64);
+		NamespacedEnum.AllOverrides.GetTypeByte().ShouldBe((byte)64);
 		NamespacedEnum.AllOverrides.GetTypeByteArray().ShouldBe([64, 64]);
 
-		NamespacedEnum.AllOverrides.GetTypeUShort().ShouldBe((ushort) 64);
+		NamespacedEnum.AllOverrides.GetTypeUShort().ShouldBe((ushort)64);
 		NamespacedEnum.AllOverrides.GetTypeUShortArray().ShouldBe([64, 64]);
 
-		NamespacedEnum.AllOverrides.GetTypeUInt().ShouldBe((uint) 64);
+		NamespacedEnum.AllOverrides.GetTypeUInt().ShouldBe((uint)64);
 		NamespacedEnum.AllOverrides.GetTypeUIntArray().ShouldBe([64, 64]);
 
-		NamespacedEnum.AllOverrides.GetTypeULong().ShouldBe((ulong) 64);
+		NamespacedEnum.AllOverrides.GetTypeULong().ShouldBe((ulong)64);
 		NamespacedEnum.AllOverrides.GetTypeULongArray().ShouldBe([64, 64]);
 
 		NamespacedEnum.AllOverrides.GetTypeFloat().ShouldBe(6.4f);

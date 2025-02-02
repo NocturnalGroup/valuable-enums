@@ -119,19 +119,19 @@ public class EnumFieldGenerator : IIncrementalGenerator
 		return fieldType.RemoveSquareBrackets() switch
 		{
 			"bool"
-				or "sbyte"
-				or "short"
-				or "int"
-				or "long"
-				or "byte"
-				or "ushort"
-				or "uint"
-				or "ulong"
-				or "float"
-				or "double"
-				or "char"
-				or "string" => true,
-			_ => false
+			or "sbyte"
+			or "short"
+			or "int"
+			or "long"
+			or "byte"
+			or "ushort"
+			or "uint"
+			or "ulong"
+			or "float"
+			or "double"
+			or "char"
+			or "string" => true,
+			_ => false,
 		};
 	}
 
@@ -171,7 +171,7 @@ public class EnumFieldGenerator : IIncrementalGenerator
 			{
 				namespaceString += ".";
 			}
-			fieldValues[i] =  namespaceString + value;
+			fieldValues[i] = namespaceString + value;
 		}
 
 		// Hopefully everything is correct!
