@@ -17,7 +17,7 @@ jobs:
 
       - name: Create Package
         run: |
-          dotnet pack --configuration Release --output Packages -p:PackageVersion=${{ github.event.release.tag_name }} Source/SimpleEndpoints/SimpleEndpoints.csproj
+          dotnet pack --configuration Release --output Packages -p:PackageVersion=${{ github.event.release.tag_name }} Source/ValuableEnums/ValuableEnums.csproj
 
       - name: Publish Package
         run: |
