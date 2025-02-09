@@ -10,6 +10,8 @@
 
 ### Making enums more valuable
 
+About · [Getting Started](tutorial.md) · [License](license.txt) · [Contributing](contributing.md)
+
 ---
 
 ValuableEnums is a source generator that emulates fields on enums.
@@ -17,17 +19,15 @@ This lets you add compile time values to an enum member, similar to Java's enums
 
 ## Installing
 
-You can install the package from [NuGet](https://www.nuget.org/packages/NocturnalGroup.ValuableEnums):
+You can install ValuableEnums with [NuGet](https://www.nuget.org/packages/NocturnalGroup.ValuableEnums):
 
 ```shell
 dotnet add package NocturnalGroup.ValuableEnums
 ```
 
-## Usage
+## Quickstart
 
-_A complete, but short, walkthrough of ValuableEnums can be found [here](Examples/ValuableEnums.Example/Program.cs)._
-
-### Quickstart
+For a detailed walkthrough of ValuableEnums, check out our [tutorial](tutorial.md).
 
 ```csharp
 // 👇 Here you can set a default value for the field.
@@ -35,11 +35,11 @@ _A complete, but short, walkthrough of ValuableEnums can be found [here](Example
 public enum Command
 {
   // 👇 Members that don't provide an override will use the default value.
-	CreateEntry = 1,
+  CreateEntry = 1,
 
   // 👇 Members that provide an override will use it instead of the default.
   [EnumField<string>("description", "Creates a new entry.")]
-	ListEntries = 2,
+  ListEntries = 2,
 
   // 👇 If you don't set a default value, the default value will be `null`.
   [EnumField<string>("usage", "delete {id}")]
@@ -50,7 +50,6 @@ public enum Command
 Console.WriteLine(Command.CreateEntry.GetDescription()); // "No description provided."
 Console.WriteLine(Command.ListEntries.GetDescription()); // "Creates a new entry."
 Console.WriteLine(Command.DeleteEntry.GetDescription()); // "No description provided."
-
 Console.WriteLine(Command.CreateEntry.GetUsage()); // null
 Console.WriteLine(Command.ListEntries.GetUsage()); // null
 Console.WriteLine(Command.DeleteEntry.GetUsage()); // "delete {id}"
@@ -58,4 +57,8 @@ Console.WriteLine(Command.DeleteEntry.GetUsage()); // "delete {id}"
 
 ## Versioning
 
-ValuableEnums follows the [SemVer](https://semver.org/) versioning scheme.
+We use [Semantic Versioning](https://semver.org/) to clearly communicate changes:
+
+- Major version changes indicate breaking updates
+- Minor version changes add features in a backward-compatible way
+- Patch version changes include backward-compatible bug fixes
