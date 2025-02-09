@@ -1,14 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<!-- Project -->
+		<IsPackable>false</IsPackable>
 		<LangVersion>Latest</LangVersion>
 		<TargetFramework>net9.0</TargetFramework>
 		<RootNamespace>NocturnalGroup.ValuableEnums.Tests.Unit</RootNamespace>
 
 		<!-- Features -->
 		<Nullable>enable</Nullable>
-		<IsPackable>false</IsPackable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
 	</PropertyGroup>
