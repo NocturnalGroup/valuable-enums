@@ -20,11 +20,11 @@
 		<Description>Making enums more valuable</Description>
 		<PackageProjectUrl>https://github.com/NocturnalGroup/valuable-enums</PackageProjectUrl>
 		<PackageIcon>Logo.png</PackageIcon>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/NocturnalGroup/valuable-enums</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>enums;</PackageTags>
-		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageLicenseFile>license.txt</PackageLicenseFile>
 	</PropertyGroup>
 
 	<ItemGroup>
